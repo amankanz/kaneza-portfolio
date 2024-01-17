@@ -10983,3 +10983,43 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.item1 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1em;
+}
+.fred-img {
+  width: 50%;
+  border: 2px solid #f8f9fa;
+  border-radius: 10%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-8 {
+    width: 100%;
+  }
+  .container-desc {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+  }
+  .item1 {
+    width: 185%;
+    margin-bottom: 0;
+  }
+  .fred-img {
+    width: 100%;
+  }
+  .item2 {
+    text-align: left;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1080px) {
+  .item2 {
+    text-align: left;
+    font-size: 17px;
+  }
+}
+
