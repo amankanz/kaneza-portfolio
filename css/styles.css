@@ -11023,3 +11023,15 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.external-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 10px;
+}
+.external-links a {
+  color: #fff;
+  /* font-size: 0.85rem; */
+}
+.external-links a:hover {
+  color: #e1d4d4;
+}
